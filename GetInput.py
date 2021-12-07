@@ -4,7 +4,7 @@ requests.packages.urllib3.disable_warnings()
 class GetInput():
 
     def __init__(self):
-        self.headers = '53616c7465645f5ff6c06a7610c7c7481d332d3a7b9ef384508acd8e74a0d4bd01f017ffdf76da9394bd97c543272c25'
+        self.headers = 'SESSION_COOKIE'
     
     def get_input(self, day):
         headers = {'session': self.headers}
